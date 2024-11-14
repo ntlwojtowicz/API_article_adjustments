@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 def generate_prompt(input_file_content: str):
     """
-    This function generates prompt to read input file and make specified adjustments
+    This function generates prompt to read input file and makes specified adjustments
     :param input_file_content: content of input file
     :return: generated prompt
     """
@@ -25,7 +25,7 @@ def generate_prompt(input_file_content: str):
 
 def connect_with_api(prompt: str):
     """
-    This function connects to API OpenAI and return response from given prompt
+    This function connects to API OpenAI and returns response from given prompt
     :param prompt: prompt to API
     :return: response from API
     """
