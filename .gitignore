@@ -1,5 +1,4 @@
 .idea
 src/.env
 junior_ai_dev_venv
-templates
 src/__pycache__
